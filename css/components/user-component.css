@@ -10,7 +10,11 @@
   width: 70px;
   height: 70px;
   border-radius: 35%;
-  margin: 20px;
+  margin-right: 15px;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
 }
 .user-component__text {
   font-size: 22px;
@@ -21,4 +25,8 @@
   font-weight: 400;
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
 }

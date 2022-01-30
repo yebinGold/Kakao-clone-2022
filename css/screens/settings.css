@@ -1,0 +1,22 @@
+.settings-header .screen-header__title {
+  font-size: 24px;
+}
+.settings__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.setting__column i:first-child {
+  margin-right: 15px;
+  opacity: 0.8;
+}
+.setting__column .fa-plus-circle {
+  color: tomato;
+  margin-left: 5px;
+}
+.setting__column:last-child {
+  color: var(--grey);
+}

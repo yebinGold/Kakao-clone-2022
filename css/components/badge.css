@@ -1,0 +1,24 @@
+.badge {
+  background-color: tomato;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.badge--sm {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  left: 35px;
+  top: -8px;
+}
+.badge--sm-father {
+  position: relative;
+}
+.badge--sm-child {
+  left: 25px;
+}

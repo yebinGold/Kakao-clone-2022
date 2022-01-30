@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/ Berry - Kokoa Talk</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>16:10</span>
+        </div>
+        <div class="status-bar__column">
+            <span>120%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Chatroom-name</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Sunday, Jan 30, 2022
+        </div>
+        <div class="msg-row">
+            <img src="berry.jpg" />
+            <div class="msg-row__content">
+                <span class="msg__author">Berry</span>
+                <div class="msg__info">
+                    <span class="msg__bubble">Hi!</span>
+                    <span class="msg__time">20:35</span>
+                </div>
+            </div>
+        </div> 
+        <div class="msg-row">
+            <img src="berry.jpg" />
+            <div class="msg-row__content">
+                <span class="msg__author">Berry</span>
+                <div class="msg__info">
+                    <span class="msg__bubble">Welcome to my club. R u ready to join the Kitty world?</span>
+                    <span class="msg__time">20:35</span>
+                </div>
+            </div>
+        </div> 
+        <div class="msg-row msg-row--own">
+            <div class="msg-row__content">
+                <div class="msg__info">
+                    <span class="msg__bubble">Yes, of course!</span>
+                    <span class="msg__time">20:36</span>
+                </div>
+            </div>
+        </div> 
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a messeage..." id="my-msg-input"/>
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
+
+    <script 
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script> 
+</body>
+</html>

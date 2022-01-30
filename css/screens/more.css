@@ -1,0 +1,43 @@
+.more-screen .icon-row {
+  margin-top: 30px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.more-screen .user-component__column:last-child {
+  color: inherit;
+}
+
+.suggestions {
+  margin-top: 50px;
+  border-top: 1px solid var(--grey);
+}
+.suggestions__title {
+  font-weight: 600;
+  margin: 30px 0;
+}
+.suggestions__icons {
+  display: flex;
+  align-items: center;
+}
+.suggestions__icon {
+  margin-left: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.suggestions__icon-img {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.suggestions__icon-text {
+  display: block;
+  margin-top: 10px;
+  color: var(--grey);
+}

@@ -4,10 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 600px;
 }
 .more-screen .icon-row__icon {
-  margin: 20px 30px;
+  margin: 20px;
 }
 .more-screen .user-component__column:last-child {
   color: inherit;

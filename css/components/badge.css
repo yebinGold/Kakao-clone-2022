@@ -16,9 +16,6 @@
   left: 35px;
   top: -8px;
 }
-.badge--sm-father {
-  position: relative;
-}
-.badge--sm-child {
-  left: 25px;
+.screen-header__icons .badge--sm {
+  left: 100px;
 }

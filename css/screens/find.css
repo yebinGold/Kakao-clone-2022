@@ -92,3 +92,25 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  /*will-change
+  브라우저에게 앞으로 일어날 변화를 미리 알려줌으로써
+  변화가 조금 더 부드럽고 깔끔하게 일어나도록 브라우저를 준비시키는 과정*/
+  animation: heartBeat 1s linear infinite;
+}

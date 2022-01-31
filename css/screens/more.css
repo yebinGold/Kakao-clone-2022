@@ -1,12 +1,6 @@
 .more-screen .icon-row {
-  margin-left: 20px;
   font-size: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-.more-screen .icon-row__icon {
-  margin: 20px;
+  margin-top: 30px;
 }
 .more-screen .user-component__column:last-child {
   color: inherit;
@@ -44,4 +38,5 @@
   display: block;
   margin-top: 10px;
   color: var(--grey);
+  font-size: 14px;
 }

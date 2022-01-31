@@ -1,5 +1,4 @@
 .more-screen .icon-row {
-  font-size: 16px;
   margin-top: 30px;
 }
 .more-screen .user-component__column:last-child {
@@ -19,7 +18,7 @@
   align-items: center;
 }
 .suggestions__icon {
-  margin-left: 30px;
+  margin-left: 20px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;

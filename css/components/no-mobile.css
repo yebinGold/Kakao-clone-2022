@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (min-width: 645px) {
+@media screen and (min-width: 630px) {
   #no-mobile {
     position: fixed;
 

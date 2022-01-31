@@ -61,6 +61,7 @@
   align-self: center;
 }
 
-#login-form input[type="submit"]:hover {
+#login-form input[type="submit"]:hover,
+#login-form input[type="submit"]:focus {
   background-color: #e4ad8d;
 }

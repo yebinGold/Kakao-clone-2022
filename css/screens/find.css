@@ -7,12 +7,17 @@
   font-size: 14px;
   color: var(--grey);
 }
+/*
 .recommended-friends span {
   display: block;
   font-size: 14px;
   color: var(--grey);
   text-align: center;
   margin: 110px 0px;
+}*/
+.recommended-friends .user-component {
+  margin: 0 20px;
+  margin-top: 25px;
 }
 
 .open-chat__header {

@@ -1,15 +1,20 @@
 .more-screen .icon-row {
-  margin-top: 30px;
-  font-size: 18px;
+  margin-left: 30px;
+  font-size: 16px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 600px;
+}
+.more-screen .icon-row__icon {
+  margin: 20px 30px;
 }
 .more-screen .user-component__column:last-child {
   color: inherit;
 }
 
 .suggestions {
-  margin-top: 50px;
+  margin-top: 30px;
   border-top: 1px solid var(--grey);
 }
 .suggestions__title {
@@ -29,7 +34,7 @@
 .suggestions__icon-img {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--pink);
   border-radius: 10px;
   display: flex;
   justify-content: center;

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Talk</title>
 </head>
-<body>
+<body id="login-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -24,9 +24,9 @@
     </div>
 
     <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+        <h1 class="welcome-header__title">Welcome to CatsTalk</h1>
         <p class="welcome-header__text">
-            If you have a Kokoa Account, log in with your email or phone number.
+            If you have a Kitty Account,<br/>log in with your email or footprint.
         </p>
     </header>
 
@@ -35,10 +35,13 @@
         <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="Log In">
         <input type="submit" value="Sign up">
-        <a href="#">Find Kokoa Account or Password</a>
+        <a href="#">Find Kitty Account or Password</a>
     </form>
     
-
+    <div id="no-mobile">
+        <span>Your screen is too big..!</span>
+    </div>
+    
     <script 
     src="https://kit.fontawesome.com/6478f529f2.js"
     crossorigin="anonymous">
